@@ -1,0 +1,15 @@
+
+syntax: regexp
+^MethodInterceptor/bin$
+syntax: regexp
+^MethodInterceptor/gen$
+syntax: regexp
+^MethodInterceptor/bin$
+syntax: regexp
+^MethodInterceptor/bin$
+syntax: regexp
+^MethodInterceptor/test/robolectric/\.classpath$
+syntax: regexp
+^MethodInterceptor/test/robolectric/bin$
+syntax: regexp
+^MethodInterceptor/tmp$
