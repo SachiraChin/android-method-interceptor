@@ -3,6 +3,14 @@ package pl.polidea.interceptor;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
+/**
+ * 
+ * Class is used as wrapper for invoking method. Holds real object, method under
+ * invocation and its arguments.
+ * 
+ * @author Przemek Jakubczyk
+ * 
+ */
 public class MethodInvocationImpl implements MethodInvocation {
 
     final Method method;

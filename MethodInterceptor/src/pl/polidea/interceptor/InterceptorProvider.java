@@ -7,6 +7,14 @@ import javax.inject.Inject;
 import com.google.inject.Injector;
 import com.google.inject.Provider;
 
+/**
+ * The Class InterceptorProvider.
+ * 
+ * @param <I>
+ *            the generic type
+ * @param <C>
+ *            the generic type implementing I interface
+ */
 public class InterceptorProvider<I, C extends I> implements Provider<I> {
     @Inject Injector injector;
     private final Class<C> clazz;

@@ -2,6 +2,9 @@ package pl.polidea.interceptor;
 
 import java.lang.reflect.InvocationTargetException;
 
+/**
+ * The Class InterceptorChain handles operations on implemented class.
+ */
 public class InterceptorChain {
 
     InterceptorFilter filter;
@@ -41,6 +44,14 @@ public class InterceptorChain {
         }
     }
 
+    /**
+     * Method checks if current filter applies and if true invokes filter
+     * perform method.
+     * 
+     * @param invocation
+     * @return value of invoked method
+     * @throws Throwable
+     */
     public Object advise(final MethodInvocation invocation) throws Throwable {
         final boolean applies = filter.applies(invocation);
         if (applies) {
