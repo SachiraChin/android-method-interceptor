@@ -1,15 +1,11 @@
 
 syntax: regexp
-^MethodInterceptor/bin$
+^bin$
 syntax: regexp
-^MethodInterceptor/gen$
+^gen$
 syntax: regexp
-^MethodInterceptor/bin$
+^test/robolectric/\.classpath$
 syntax: regexp
-^MethodInterceptor/bin$
+^test/robolectric/bin$
 syntax: regexp
-^MethodInterceptor/test/robolectric/\.classpath$
-syntax: regexp
-^MethodInterceptor/test/robolectric/bin$
-syntax: regexp
-^MethodInterceptor/tmp$
+^tmp$
