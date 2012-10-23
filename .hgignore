@@ -9,3 +9,18 @@ syntax: regexp
 ^test/robolectric/bin$
 syntax: regexp
 ^tmp$
+syntax: regexp
+^log$
+syntax: regexp
+^ota$
+syntax: regexp
+^build$
+syntax: regexp
+^local\.properties$
+syntax: regexp
+^\.gradle$
+syntax: regexp
+^test/robolectric/\.gradle$
+syntax: regexp
+^test/robolectric/build$
+
