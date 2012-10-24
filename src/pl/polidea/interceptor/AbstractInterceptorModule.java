@@ -9,7 +9,7 @@ import com.google.inject.AbstractModule;
  * @author Przemek Jakubczyk
  * 
  */
-public abstract class InterceptorAbstractModule extends AbstractModule {
+public abstract class AbstractInterceptorModule extends AbstractModule {
 
     /**
      * Method binding interface with class using filters. Filters are placed and
