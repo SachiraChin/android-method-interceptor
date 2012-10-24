@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK" exported="true"/>
+	<classpathentry kind="lib" path="/home/przemek/temp/android-method-interceptor/ext-classes" exported="true"/>
+	<classpathentry kind="lib" path="/home/przemek/android_sdk/android-sdk-linux/platforms/android-7/android.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/przemek/temp/android-method-interceptor/libs/android-support-v4.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/przemek/temp/android-method-interceptor/libs/guice-3.0-no_aop.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/przemek/temp/android-method-interceptor/libs/roboguice-2.0b4.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/przemek/temp/android-method-interceptor/libs/javax.inject.jar" exported="true"/>
+	<classpathentry kind="src" path="gen"/>
+</classpath>

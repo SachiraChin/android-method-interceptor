@@ -5,6 +5,7 @@ buildscript {
     }
     dependencies {
         classpath ('com.apphance.ameba:Ameba:0.99.4')
+	classpath 'org.gradle.api.plugins:gradle-android-plugin:1.2.1'
     }
 }
 
@@ -16,3 +17,5 @@ apply plugin: 'ameba-android-release'
 apply plugin: 'ameba-android-test'
 apply plugin: 'ameba-android-analysis'
 
+apply plugin: 'android'
+apply plugin: 'eclipse'

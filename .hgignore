@@ -1,4 +1,5 @@
 
+
 syntax: regexp
 ^bin$
 syntax: regexp
@@ -17,6 +18,8 @@ syntax: regexp
 ^build$
 syntax: regexp
 ^local\.properties$
+syntax: regexp
+^\.settings$
 syntax: regexp
 ^\.gradle$
 syntax: regexp
