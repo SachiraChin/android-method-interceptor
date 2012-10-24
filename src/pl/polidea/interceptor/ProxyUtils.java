@@ -9,7 +9,12 @@ import java.lang.reflect.Array;
  * @author Przemek Jakubczyk
  * 
  */
-public class ProxyUtils {
+public final class ProxyUtils {
+
+    private ProxyUtils() {
+
+    }
+
     /**
      * Copy from java.util.Arrays.copyOfRange . Android support this method
      * since API 9.

@@ -10,21 +10,21 @@ import java.lang.reflect.Method;
 public interface MethodInvocation {
 
     /**
-     * Method used for invocation
+     * Method used for invocation.
      * 
      * @return
      */
     Method getMethod();
 
     /**
-     * Object from which method is called
+     * Object from which method is called.
      * 
      * @return
      */
     Object getDelegate();
 
     /**
-     * Method args
+     * Method args.
      * 
      * @return
      */
